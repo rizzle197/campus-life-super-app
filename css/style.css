@@ -1,0 +1,8 @@
+.image_background {
+/* Adding a background for website and blue color overlay */
+    background:
+        linear-gradient(rgba(0, 51, 153, .5), rgba(0, 51, 153, .5)),    /* Blue translucent overlay for the background image */
+        url('../images/reinhardt-background.jpg') no-repeat center fixed;
+    background-size: cover;
+    color:white;    /* White text color */
+}
