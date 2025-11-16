@@ -1,5 +1,5 @@
+/* Adding a background for home page and blue color overlay */
 .home-background {
-    /* Adding a background for home page and blue color overlay */
     background:
         linear-gradient(rgba(0, 51, 153, .5), rgba(0, 51, 153, .5)),    /* Blue translucent overlay for the background image */
         url('../images/reinhardt-background.jpg') no-repeat center fixed;
@@ -7,13 +7,22 @@
     color:white;    /* White text color */
 }
 
+/* Background for the dining page and a yellow overlay */
 .dining-background {
-    /* Background for the dining page and a yellow overlay */
     background:
         linear-gradient(rgb(255, 215, 0, .4), rgb(255, 215, 0, .4)),
         url('../images/gordy-dining-hall.jpg') no-repeat center fixed;
     background-size: cover;
     color: black;
+}
+
+/* Adding a background for events page and blue color overlay */
+.events-background {
+    background:
+        linear-gradient(rgba(0, 51, 153, .5), rgba(0, 51, 153, .5)),    /* Blue translucent overlay for the background image */
+        url('../images/reinhardt_band.jpg') no-repeat center fixed;
+    background-size: cover;
+    color:white;    /* White text color */
 }
 
 /* Makes text bigger */

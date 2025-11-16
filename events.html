@@ -7,7 +7,7 @@
         <!-- Link to CSS -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
+    <body class="events-background">
         <header>
             <div class="container d-flex justify-content-between pt-2 border-bottom border-5">
                 <h1>Campus Life - Events</h1>
@@ -21,32 +21,32 @@
         
         <!-- Main content area -->
         <main>
+            <div class="container justify-content-center">
+                
+                <h1 class="text-large pt-5 text-center">Events Near Campus!</h1>
+
+                <!-- User will click button then 3 events will show up -->
+                <div class="d-flex justify-content-center mb-4">
+                        <button id="fetch-events-btn" class="btn btn-warning mb-3">
+                            Fetch Top 3 Events In Your Area
+                        </button>
+                    </div>
             
+                <div id="events-container" class="container pt-3">
+                    <!-- Info about events will show up here once user clicks button. Layout will be specified in script.js -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <p class="yellow-text-box">Event 1: Temporary text until Ticketmaster API gets implemented</p>
+                    <p class="yellow-text-box">Event 2: Temporary text until Ticketmaster API gets implemented</p>
+                    <p class="yellow-text-box">Event 3: Temporary text until Ticketmaster API gets implemented</p>
+                </div>
+            </div>
         </main>
         <footer class="container d-flex justify-content-between pt-3 mt-4 border-top border-5">
             <p class="fs-4 m-0">Campus Life - Est. 2025</p>
             <!-- Link to about page created by Reinhardt -->
             <a href="https://www.reinhardt.edu/about/" class="btn btn-outline-light ">About Reinhardt</a>
         </footer>
+
+        <script src="./js/events.js"></script>
     </body>
 </html>
