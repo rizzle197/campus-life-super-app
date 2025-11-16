@@ -1,5 +1,5 @@
-.image_background {
-/* Adding a background for website and blue color overlay */
+.home-background {
+    /* Adding a background for home page and blue color overlay */
     background:
         linear-gradient(rgba(0, 51, 153, .5), rgba(0, 51, 153, .5)),    /* Blue translucent overlay for the background image */
         url('../images/reinhardt-background.jpg') no-repeat center fixed;
@@ -7,19 +7,38 @@
     color:white;    /* White text color */
 }
 
+.dining-background {
+    /* Background for the dining page and a yellow overlay */
+    background:
+        linear-gradient(rgb(255, 215, 0, .4), rgb(255, 215, 0, .4)),
+        url('../images/gordy-dining-hall.jpg') no-repeat center fixed;
+    background-size: cover;
+    color: black;
+}
+
 /* Makes text bigger */
 .text-large {
     font-size: 400%;
 }
 
-/* Text box to make text stand out on the page */
-.text-box {
-    border: 2px solid gold;
+/* Yellow text box to make text stand out on the page */
+.yellow-text-box {
+    border: 3px solid black;
     padding: 20px;
     border-radius: 10px;
     background-color: gold;
     color: black;
-    width: fill;     /* Forms box around text */
+    width: fill;     /* Forms box around text width: fill; */
+}
+
+/* Blue text box for better text readability on yellow background */
+.blue-text-box {
+    border: 3px solid whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: navy;
+    color: whitesmoke;
+    width: fill;     /* Forms box around text width: fill; */
 }
 
 /* Yellow clickable blocks that are buttons to redirect to specific pages */
@@ -38,6 +57,7 @@
     background-color: gold;
     border-radius: 12px;
     padding: 20px;
+    border: 3px solid black;
 
     font-size: 30px;
     cursor: pointer;
